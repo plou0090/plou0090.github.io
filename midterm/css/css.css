@@ -48,6 +48,9 @@ table {
 }
 
 
+
+
+
 /******************************* MAIN *****************************/
 
 html{
@@ -57,13 +60,17 @@ html{
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 20px 50px;
+    background: rgba(245, 245, 245, 0.5) ;
+    width: 40%;
+    text-align: center;
 }
 
 #body{
     width: 1024px;
     margin: 0 auto;
+    background: rgb(238, 154, 93)
 }
 
 header{
@@ -76,10 +83,15 @@ header{
     text-align: left;
 }
 
+
+
+/************************* NAV **************************/
+
+
 nav{
     width: 100%;
     height: 35px;
-    margin: 10px auto;
+    margin: 2px auto;
 }
 
 nav ul{
@@ -88,14 +100,112 @@ nav ul{
 
 nav li{
     float: left;
+    width: 340px;
+    height: 40px;
+    text-align: center;
+    
 }
 
 nav a{
     display: block;
     text-decoration: none;
-	width: 200px;
-	height: 45px;
-	text-align: center;
-	margin: 0 5px;
+	width: 340px;
+    font-size: 100%;
 }
 
+a:hover{
+    color: black;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a:active{
+    color: black;
+}
+
+#home{
+    border-right: solid black 1px;
+}
+
+#contact{
+    border-left: solid black 1px;
+}
+
+
+/************************ BODY *************************/
+
+/* LIFE OF A SQUIRREL */
+
+article{
+    margin-left: 10px;
+    width: 95%;
+}
+
+h2{
+    font-size: 175%;
+    margin-bottom: 10px;
+}
+
+.main-text{
+    margin-top: 40px;
+}
+
+.main-text p{
+    height: 350px;
+    display: block;
+    font-size: .95rem;
+    line-height: 1.2rem;
+}
+
+img{
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+/* FACTS ABOUT SQUIRRELS */
+
+.facts{
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 150%;
+    padding-bottom: 10px;
+}
+
+ul.list{
+    list-style: square inside;
+    font-size: .95rem;
+    line-height: 1rem;
+}
+
+
+/* CONTACT US */
+
+.contact-us{
+    width: 95%;
+}
+
+#fullname{
+    display: block;
+}
+
+#email{
+    display: block;
+}
+
+#message{
+    display: block;
+}
+
+#forms{
+    border: solid black 1px;
+    padding: 10px;
+}
