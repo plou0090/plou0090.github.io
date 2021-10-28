@@ -117,19 +117,7 @@ nav a{
     left: 138.195px;
 }
 
-a:hover{
-    color: black;
-}
-
-a:link{
-    color: black;
-}
-
-a:visited{
-    color: black;
-}
-
-a:active{
+a:hover, a:active, a:link, a:visited{
     color: black;
 }
 
