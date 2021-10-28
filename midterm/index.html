@@ -13,14 +13,18 @@
                 <ul>
                     <li id="home">
                         <a href="index.html">
-                            <span>HOME</span>
+                            <p>HOME</p>
                         </a>
                     </li>
                     <li id="story">
-                        <a href="index.html">STORY</a>
+                        <a href="index.html">
+                            <p>STORY</p>
+                        </a>
                     </li>
                     <li id="contact">
-                        <a href="index.html">CONTACT</a>
+                        <a href="index.html">
+                            <p>CONTACT</p>
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -52,23 +56,44 @@
             <article class="contact-us">
                 <h4>Contact Us</h4>
                 <div id="forms">
-                    <form action="index.html" method="get">
-                        <label for="fullname">Your Name:</label>
-                        <input type="text" id="fullname">
-                    </form>
-                    <form action="index.html" method="get">
-                        <label for="email">Your Email:</label>
-                        <input type="email" id="email">
-                    </form>
-                    <form action="index.html" method="get">
-                        <label for="message">Leave Us a Message:</label>
-                        <textarea id="message" cols="30" rows="10"></textarea>
+                    <form action="index.html" method="post">
+                        <fieldset>
+                            <label for="fullname">Your Name:</label>
+                            <input type="text" id="fullname">
+                        </fieldset>
+                    
+                        <fieldset>
+                            <label for="email">Your Email:</label>
+                            <input type="email" id="email">
+                        </fieldset>
+                    
+                        <fieldset>
+                            <label for="message">Leave Us a Message:</label>
+                            <textarea id="message" cols="30" rows="10"></textarea>
+                        </fieldset>
+
+                        <h5>Would you like to visit the red squirrel?</h5>
+                        
+                        <fieldset>
+                            <label for="yes">Yes</label>
+                            <input type="checkbox" id="yes" name="yes">
+
+                            <label for="no">No</label>
+                            <input type="checkbox" is="no" name="no">
+
+                            <label for="maybe">Maybe?</label>
+                            <input type="checkbox" id="maybe" name="maybe">
+                        </fieldset>
+
+                        <button type="submit" id="button">SEND</button>
                     </form>
                 </div>
             </article>
 
-            <footer>
-                <span>&copy The Red Squirrel</span>
+            <footer class="footer">
+                <div class="copyright">
+                    &copy The Red Squirrel
+                </div>
             </footer>
         </div>
     </body>
